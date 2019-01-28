@@ -35,10 +35,11 @@ We have to crete two functions
 
 *Note: XML response must be served as POST request and return ContentType text/xml*
 
-There are two implementations on Azure Function
+There are two implementations on Azure Function ([check differences](https://docs.microsoft.com/en-us/azure/azure-functions/functions-versions))
 
-- folder src - contains Functions v1
-- folder src-v2 - contains Functions v2 (compiled C#)
+- folder src - contains Functions v1 (C# script .csx)
+- folder src-v2 - contains Functions v2 (C# class library)
+
 
 Next add new Action in **Azure LogicApp - add new Function** - just to select correct function\
 
