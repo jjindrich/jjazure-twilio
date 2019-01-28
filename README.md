@@ -35,6 +35,11 @@ We have to crete two functions
 
 *Note: XML response must be served as POST request and return ContentType text/xml*
 
+There are two implementations on Azure Function
+
+- folder src - contains Functions v1
+- folder src-v2 - contains Functions v2 (compiled C#)
+
 Next add new Action in **Azure LogicApp - add new Function** - just to select correct function\
 
 ![LogicApp call Function](media/logicapp-voice.png)
